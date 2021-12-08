@@ -105,6 +105,10 @@ body {
   font-weight: 400;
 }
 
+body._lock {
+  overflow: hidden;
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
