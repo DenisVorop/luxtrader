@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" viewBox="0 0 22 25">
+    <defs>
+        <clipPath id="esfea">
+            <path fill="#fff" d="M22 25H0V12l11 7 11-7z"/>
+        </clipPath>
+        <clipPath id="esfeb">
+            <path fill="#fff" d="M4 0h15v16l-7 4-8-4z"/>
+        </clipPath>
+        <clipPath id="esfec">
+            <path fill="#fff" d="M7 4V3h9v1zm0 2V5h7v1zm0 2V7h9v1zm0 5v-1h4v1zm7 0v-1h2v1zm-7-3V9h7v1z"/>
+        </clipPath>
+        <clipPath id="esfed">
+            <path fill="#fff" d="M0 14v-2l4-4L4.18 9.2zm19-4V9l3 4v1z"/>
+        </clipPath>
+    </defs>
+    <g>
+        <g opacity="1">
+            <path fill="none" stroke="#bb9c66" stroke-miterlimit="20" stroke-width="2" d="M22 25H0V12l11 7 11-7z" clip-path="url(&quot;#esfea&quot;)"/>
+        </g>
+        <g opacity="1">
+            <path fill="none" stroke="#bb9c66" stroke-miterlimit="20" stroke-width="2" d="M4 0v0h15v16l-7 4v0l-8-4v0z" clip-path="url(&quot;#esfeb&quot;)"/>
+        </g>
+        <g opacity="1">
+            <path fill="none" stroke="#bb9c66" stroke-miterlimit="20" stroke-width="2" d="M7 4V3h9v1zm0 2V5h7v1zm0 2V7h9v1zm0 5v-1h4v1zm7 0v-1h2v1zm-7-3V9h7v1z" clip-path="url(&quot;#esfec&quot;)"/>
+        </g>
+        <g opacity="1">
+            <path fill="none" stroke="#bb9c66" stroke-miterlimit="20" stroke-width="2" d="M0 14v-2l4-4L4.18 9.2zm19-4V9l3 4v1z" clip-path="url(&quot;#esfed&quot;)"/>
+        </g>
+    </g>
+</svg>
