@@ -37,11 +37,11 @@ new Swiper('.main-slider__body', {
 
     loop: true,
 
-    // autoplay: {
-    //     delay: 5000,
-    //     stopOnLastSlide: false,
-    //     disableOnInteraction: false
-    // },
+    autoplay: {
+        delay: 5000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false
+    },
 
     speed: 800,
 
