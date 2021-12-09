@@ -45,6 +45,11 @@ new Swiper('.main-slider__body', {
 
     speed: 800,
 
+    slidesPerView: 1,
+
+    observer: true,
+    observeParents: true,
+
     // effect: 'fade',
     // fadeEffect: {
     //     crossFade: true
