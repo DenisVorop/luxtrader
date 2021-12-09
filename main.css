@@ -122,8 +122,8 @@ body._lock {
           flex-direction: column;
 }
 
-.swiper-wrapper {
-  min-width: 970px;
+.swiper-container {
+  overflow: hidden;
 }
 
 ._container {
@@ -527,7 +527,7 @@ body._lock {
   margin: 0 0 0 0;
 }
 .user-header__menu._active {
-  top: 78px;
+  top: 48px;
   opacity: 1;
   visibility: visible;
 }
