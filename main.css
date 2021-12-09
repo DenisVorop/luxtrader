@@ -122,6 +122,10 @@ body._lock {
           flex-direction: column;
 }
 
+.swiper-wrapper {
+  min-width: 970px;
+}
+
 ._container {
   margin: 0 auto;
   max-width: 970px;
@@ -559,6 +563,11 @@ body._lock {
 .main-slider {
   position: relative;
 }
+.main-slider .swiper-wrapper {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
 .main-slider__control {
   position: absolute;
   left: 50%;
@@ -576,6 +585,7 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 2;
 }
 .main-slider__control:after {
   content: "";
