@@ -98,3 +98,46 @@ new Swiper('.slider-lots__body', {
         }
     },
 });
+
+new Swiper('.slider-quotes__body', {
+    navigation: {
+        nextEl: '.control-slider-quotes__circle',
+        prevEl: ''
+    },
+
+    simulateTouch: false,
+
+    autoHeight: true,
+
+    loop: true,
+
+    autoplay: {
+        delay: 8000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false
+    },
+
+    speed: 800,
+
+    slidesPerView: 1,
+
+    observer: true,
+    observeParents: true,
+
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
+
+    // breakpoints: {
+    //     320: {
+    //         slidesPerView: 1,
+    //     },
+    //     550: {
+    //         slidesPerView: 2,
+    //     },
+    //     768: {
+    //         slidesPerView: 3,
+    //     }
+    // },
+});
